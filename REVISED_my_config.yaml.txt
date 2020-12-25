@@ -1,0 +1,49 @@
+Input:
+  media_dir: 'C:\Users\beach\Desktop\newmedia'
+
+Folder Names to Include in Scan:
+  RECURSIVE=YES:
+    type_dir: ['movies', 'tvshows']
+
+  RECURSIVE=NO:
+    type_dir: ['home movies']
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!! Preview=[True/False]                  !!!!
+!!!!                                       !!!!
+!!!! Exclude Files from Scan:              !!!!
+!!!!	['movies', 'home movies']          !!!!
+!!!!                                       !!!!
+!!!! Exclude Folders from scan:            !!!!
+!!!!	['tvshows']                        !!!!
+!!!!                                       !!!!
+!!!! Apply Scan Results To Orginal Folders:!!!!
+!!!!	['home movies']                    !!!!
+!!!!                                       !!!!
+!!!! Overwrite Folders/Files=[true/false]  !!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Label tags to move and create folder based on tag name:
+  tags: ['144p', '240p', '360p', '480p', '720p', 'HD']
+
+Prefix Deletion remove first instance of tag and everything before it:
+  tags: ['TEXT']
+
+Suffix Deletion remove the last instance of tag and everything after last instance of:
+  tags: ['TEXT']
+
+Tags to be removed from folder/files:
+  tags: ['TEXT']
+
+Directory to output folder:
+  720p:
+    movies: 'C:\Users\movies'
+    tvshows: 'C:\Users\tvshows'
+  480p:
+    movies: 'C:\Users\SD\movies'
+    tvshows: 'C:\Users\SD\tvshows'
+  HD:
+    movies: 'C:\Users\movies'
+    tvshows: 'C:\Users\tvshows'
+
+Copy or Move:
+  value: 'Copy'
+
