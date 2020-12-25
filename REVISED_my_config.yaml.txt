@@ -20,6 +20,9 @@ Folder Names to Include in Scan:
 !!!!	['home movies']                    !!!!
 !!!!                                       !!!!
 !!!! Overwrite Folders/Files=[true/false]  !!!!
+!!!!                                       !!!!
+!!!!Label tags to move files based on .ext:!!!!
+!!!!tags: ['.mp3', '.mkv', '.avi']         !!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Label tags to move and create folder based on tag name:
   tags: ['144p', '240p', '360p', '480p', '720p', 'HD']
