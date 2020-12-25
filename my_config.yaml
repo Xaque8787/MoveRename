@@ -18,8 +18,7 @@ Suffix Deletion remove the last instance of tag and everything after last instan
   tags: ['-', 'HD', '.', '(A)']
 
 Prefix Deletion remove first instance of tag and everything before it:
-  tags: [
-]
+  tags: []
 
 Directory to output folder:
   720p:
